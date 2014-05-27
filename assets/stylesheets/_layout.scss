@@ -14,6 +14,8 @@ body {
   
 }
 
+
+
 a,
 a:focus,
 a:hover {
@@ -29,7 +31,7 @@ padding-bottom: 5px;
 
 .nav {
   text-transform:lowercase;
-  
+  font-size:1.3em;  
   }
 
 .spacer {
@@ -119,12 +121,27 @@ padding-bottom: 5px;
 
 
 
+.navbar .navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  
+  float: none;
+}
 
+.nav-center {
+    margin:0;
+    float:none;
+}
 
+.navbar-inner{
+    text-align:center;
+}
 
-
-
-
-
-
-
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
