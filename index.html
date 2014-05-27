@@ -21,226 +21,298 @@
   <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-touch-icon-114.png">
   <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-touch-icon-144.png">
   <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="application-name" content="Project Name"/> 
-  <meta name="msapplication-TileColor" content="#df6f0f"/> 
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="application-name" content="Project Name"/>
+  <meta name="msapplication-TileColor" content="#df6f0f"/>
   <meta name="msapplication-TileImage" content="assets/icons/ms-TileImage.png"/>
   <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
   <!-- Bootstrap core CSS -->
-    <link href="assets/stylesheets/style.css" media="all" rel="stylesheet" />
-    <style type="text/css"> 
-     @font-face {   font-family: 'Glyphicons Halflings';   
-     src: url('assets/fonts/glyphicons-halflings-regular.eot');   
-     src: url('assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-     url('assets/fonts/glyphicons-halflings-regular.woff') format('woff'),  
-     url('assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
-     url('assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg'); } 
-    </style>
+  <link href="assets/stylesheets/style.css" media="all" rel="stylesheet"/>
+  <style type="text/css">
+    @font-face {
+      font-family: 'Glyphicons Halflings';
+      src: url('assets/fonts/glyphicons-halflings-regular.eot');
+      src: url('assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/glyphicons-halflings-regular.woff') format('woff'),
+      url('assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+      url('assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    }
+  </style>
   <link rel="stylesheet" href="assets/stylesheets/animations.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+<body>
 
 <!-- NAV -->
 
- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="navbar-inner">
-          <div class="nav-center">
-          <a class="navbar-brand slideDown" href="#"><img src = "assets/images/icon.png" width="150px" /></a>
-          </div>
-          </div>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-inner">
+        <div class="nav-center">
+          <a class="navbar-brand slideDown" href="#"><img src="assets/images/icon.png" width="150px"/></a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="#about">Who We Are</a></li>
-            <li><a href="#examples">What We Do</a></li>
-            
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-
-            <li><a href="#partners">Our Partners</a></li>
-            <li ><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
     </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#about">Who We Are</a></li>
+        <li><a href="#examples">What We Do</a></li>
 
-     
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
 
+        <li><a href="#partners">Our Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</div>
 
+<div id="faketrigger" style="height: 100%;"></div>
+<div id="trigger1" style="height: 100%;"></div>
+<div id="trigger2" style="height: 100%;"></div>
+<div id="trigger3" style="height: 100%;"></div>
+<div id="trigger4" style="height: 100%;"></div>
 
 <!-- Intro -->
+<div class="site-wrapper intro" id="intro" style="position: fixed; top: 0; opacity: 1.0;">>
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover text-center">
+        <h1 class="cover-heading">Welcome to Ticket Evolution</h1>
 
-    <div class="site-wrapper intro">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover text-center">
-            <h1 class="cover-heading">Welcome to Ticket Evolution</h1>
-            <p class="lead spacer">We are a company revolutionzing the Secondary Ticket Industry. <b
+        <p class="lead spacer">We are a company revolutionzing the Secondary Ticket Industry. <b
             One white label solution at a time.</p>
-            <div class="spacer"></div>
+
+        <div class="spacer"></div>
 
 
-            <p class="lead text-center floating spacer">
-              <a href="#about"><span class="fa fa-chevron-down"></span></a>
-            </p>
-          </div>
-        </div>
+        <p class="lead text-center floating spacer">
+          <a href="#about"><span class="fa fa-chevron-down"></span></a>
+        </p>
       </div>
     </div>
+  </div>
+</div>
+
+
 
 <!-- About -->
-     <div class="site-wrapper intro" id="about">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">Who We Are</h1>
-            <p class="lead spacer">Ticket Evolution is a ticketing technology company that is revolutionizing the secondary ticket market. With full-market depth, courtesy of Ticket Evolution's 120+ shareholder partners, Ticket Evolution is able to offer customized ticketing solutions that drive revenue and consumer engagement. </p>
-          </div>
-          <hr class="spacer" />
-            <p class="spacer"><img src="http://partners.ticketevolution.com/images/map.png" alt=""></p>
-          <div class="row featured-content spacer">
+<div class="site-wrapper intro" id="about" style="position: fixed; top: 0; opacity: 0;">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover">
+        <h1 class="cover-heading">Who We Are</h1>
+
+        <p class="lead spacer">Ticket Evolution is a ticketing technology company that is revolutionizing the secondary
+          ticket market. With full-market depth, courtesy of Ticket Evolution's 120+ shareholder partners, Ticket
+          Evolution is able to offer customized ticketing solutions that drive revenue and consumer engagement. </p>
+      </div>
+      <hr class="spacer"/>
+      <p class="spacer"><img src="http://partners.ticketevolution.com/images/map.png" alt=""></p>
+
+      <div class="row featured-content spacer">
         <div class="col-md-3 text-center">
           <h1>50+</h1>
+
           <p>Years In The Industry</p>
         </div>
         <div class="col-md-3 text-center">
           <h1>120+</h1>
+
           <p>Ticket Resellers Invested</p>
         </div>
         <div class="col-md-3 text-center">
           <h1>500+</h1>
+
           <p>Resellers on our platform</p>
         </div>
-         <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center">
           <h1>$1B+</h1>
+
           <p>ticketing inventory</p>
         </div>
       </div>
 
-        </div>
-      </div>
     </div>
+  </div>
+</div>
 
 <!-- What We Do -->
-     <div class="site-wrapper intro" id="examples">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">What We Do</h1>
-            <p class="lead spacer">We are an API company bringing $1.4Billion of event tickets to your audience.</p>
-            <p class="lead">We Bring The Tickets and Technology.  You Bring the fans.</p>
-</p>
-          </div>
-          <div class="row featured-content spacer" style="margin-top:10%;">
-       <p ><img src="assets/images/tree.png" alt=""></p>
+<div class="site-wrapper intro" id="examples" style="position: fixed; top: 0; opacity: 0;">>
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover">
+        <h1 class="cover-heading">What We Do</h1>
+
+        <p class="lead spacer">We are an API company bringing $1.4Billion of event tickets to your audience.</p>
+
+        <p class="lead">We Bring The Tickets and Technology. You Bring the fans.</p>
+        </p>
       </div>
-        </div>
+      <div class="row featured-content spacer" style="margin-top:10%;">
+        <p><img src="assets/images/tree.png" alt=""></p>
       </div>
     </div>
+  </div>
+</div>
 
 <!-- Case studies -->
-     <div class="site-wrapper intro" id="partners">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">Case Studies</h1>
-            <p class="lead spacer">Send us a message below and we'll get back to you shortly. Setting up is simple. We will have you selling tickets in no time!</p>
-</p>
+<div class="site-wrapper intro" id="partners" style="position: fixed; top: 0; opacity: 0;">>
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover">
+        <h1 class="cover-heading">Case Studies</h1>
 
-<form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+        <p class="lead spacer">Send us a message below and we'll get back to you shortly. Setting up is simple. We will
+          have you selling tickets in no time!</p>
+        </p>
+
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
           </div>
-          
-        </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+
+            <p class="help-block">Example block-level help text here.</p>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
       </div>
+
     </div>
+  </div>
+</div>
 
 
 <!-- Contact -->
-     <div class="site-wrapper intro" id="contact">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">Ready To Make Some Money?</h1>
-            <p class="lead spacer">Send us a message below and we'll get back to you shortly. Setting up is simple. We will have you selling tickets in no time!</p>
-</p>
+<div class="site-wrapper intro" id="contact" style="position: fixed; top: 0; opacity: 0;">>
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover">
+        <h1 class="cover-heading">Ready To Make Some Money?</h1>
 
-<form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+        <p class="lead spacer">Send us a message below and we'll get back to you shortly. Setting up is simple. We will
+          have you selling tickets in no time!</p>
+        </p>
+
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
           </div>
-          
-        </div>
-      </div>
-    </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
 
+            <p class="help-block">Example block-level help text here.</p>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <footer>
-      <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2014 Ticket Evolution</p>
-        </div>
-      </footer>
+  <div class="container">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+
+    <p>© 2014 Ticket Evolution</p>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/javascripts/jquery-1.10.2.min.js"></script>
+<script src="assets/javascripts/bootstrap.js"></script>
+<script src="assets/javascripts/modernizr.js"></script>
+<script src="assets/javascripts/scripts.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js"></script>
+<script type="text/javascript" src="assets/javascripts/jquery.scrollmagic.min.js"></script>
+<script type="text/javascript" src="assets/javascripts/jquery.scrollmagic.debug.js"></script>
+<script>
+
+$(document).ready(function() {
+  // The ScrollMagic controller.  Does all the magic.
+  var controller = new ScrollMagic();
+
+  var tween = TweenMax.to("#about", 0.5, {
+    opacity: 1.0,
+    backgroundColor: '#f00'
+  });
+  var scene = new ScrollScene({
+    triggerElement: "#trigger1"
+  })
+  .setTween(tween)
+  .addTo(controller);
+
+  var tween = TweenMax.to("#examples", 0.5, {
+    opacity: 1.0,
+    backgroundColor: '#0f0'
+  });
+  var scene = new ScrollScene({
+    triggerElement: "#trigger2"
+  })
+  .setTween(tween)
+  .addTo(controller);
+
+  var tween = TweenMax.to("#partners", 0.5, {
+    opacity: 1.0,
+    backgroundColor: '#ff0'
+  });
+  var scene = new ScrollScene({
+    triggerElement: "#trigger3"
+  })
+  .setTween(tween)
+  .addTo(controller);
+
+  var tween = TweenMax.to("#contact", 0.5, {
+    opacity: 1.0,
+    backgroundColor: '#00f'
+  });
+  var scene = new ScrollScene({
+    triggerElement: "#trigger4"
+  })
+  .setTween(tween)
+  .addTo(controller);
 
 
+  // show indicators (requires debug extension)
+  scene.addIndicators();
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+});
 
-    <script src="assets/javascripts/jquery-1.10.2.min.js"></script>  
-    <script src="assets/javascripts/bootstrap.js"></script>
-    <script src="assets/javascripts/modernizr.js"></script>
-    <script src="assets/javascripts/scripts.js"></script>
-
-  
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
-
-  
+</script>
 
 </body>
 </html>
